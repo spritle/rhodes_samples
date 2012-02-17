@@ -1,0 +1,16 @@
+<div data-role="page" >
+
+  <div data-role="header" data-position="inline" data-theme="a">
+    <h1>PageTransitions</h1>
+<a href="<%= url_for :controller => :OverviewPage ,:action => :index  %>"  class="ui-btn-right" data-icon="home" data-inline="true" >Home</a>
+  </div>
+
+  <div data-role="content">
+  <a href="<%= url_for  :action => :dialog_page %>" data-transition="slide" data-role="button" class="ui-btn-right"  data-theme="b" >Slide</a>
+  <a href="<%= url_for  :action => :dialog_page %>" data-transition="slideup" data-role="button" class="ui-btn-right"  data-theme="b">Slideup</a> 
+  <a href="<%= url_for  :action => :dialog_page %>" data-transition="slidedown" data-role="button" data-theme="b" >Slidedown</a> 
+  <a href="<%= url_for  :action => :dialog_page %>" data-transition="pop" data-role="button" data-theme="b">Pop</a> 
+  <a href="<%= url_for  :action => :dialog_page %>" data-transition="fade" data-role="button" data-theme="b">Fade</a> 
+  <a href="<%= url_for  :action => :dialog_page %>" data-transition="flip" data-role="button" data-theme="b">Flip</a> 
+  </div>
+</div>

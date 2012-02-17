@@ -1,0 +1,16 @@
+<div data-role="page" >
+
+  <div data-role="header" data-position="inline" data-theme="a">
+    <h1>Theming Effect</h1>
+    <a href="<%= url_for :controller => :OverviewPage ,:action => :index  %>"  class="ui-btn-right" data-icon="home" data-inline="true" >Home</a>
+  </div>
+
+  <div data-role="content">
+   
+  <a href="<%= url_for  :action => :theme_a %>" data-transition="fade" data-role="button" data-theme="a">Theme-A</a> 
+  <a href="<%= url_for  :action => :theme_b %>" data-transition="fade" data-role="button" data-theme="a">Theme-B</a>
+  <a href="<%= url_for  :action => :theme_c %>" data-transition="fade" data-role="button" data-theme="a">Theme-C</a> 
+  <a href="<%= url_for  :action => :theme_d %>" data-transition="fade" data-role="button" data-theme="a">Theme-D</a> 
+  <a href="<%= url_for  :action => :theme_e %>" data-transition="fade" data-role="button" data-theme="a">Theme-E</a>  
+  </div>
+</div>

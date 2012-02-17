@@ -1,0 +1,31 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>List View</h1>
+    <a href="<%= url_for :controller => :OverviewPage ,:action => :index  %>"  class="ui-btn-right" data-icon="home" data-inline="true" >Home</a>   
+  </div>
+
+  <div data-role="content">
+  <ul data-role="listview" class="ui-listview" data-theme="b" >
+
+  <li class="ui-btn  ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-count ui-li-has-icon">
+      <a href="#" class="ui-link-inherit">
+        <img src="/public/images/flag_icon_india.gif"  alt="India" class="ui-li-icon ui-li-thumb">India <span class="ui-li-count ui-btn-up-c ui-btn-corner-all">62</span></a>
+  </li>
+        
+  <li class="ui-btn  ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-count ui-li-has-icon">
+       <a href="#" class="ui-link-inherit">
+          <img src="/public/images/item_icon_usa_flag.gif"  alt="USA" class="ui-li-icon ui-li-thumb">USA <span class="ui-li-count ui-btn-up-c ui-btn-corner-all">4</span></a>
+  </li>
+  <li class="ui-btn  ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-count ui-li-has-icon">
+       <a href="#" class="ui-link-inherit">
+          <img src="/public/images/Tbfrance.png" height="50%" alt="France" class="ui-li-icon ui-li-thumb">France <span class="ui-li-count ui-btn-up-c ui-btn-corner-all">234</span></a>
+  </li>
+  <li class="ui-btn  ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-count ui-li-has-icon">
+         <a href="#" class="ui-link-inherit">
+           <img src="/public/images/Germany-Flag-icon.png" height="50%" alt="Germany" class="ui-li-icon ui-li-thumb">Germany <span class="ui-li-count ui-btn-up-c ui-btn-corner-all">34</span></a>
+  </li>
+               
+  </ul>
+  </div>
+</div>
